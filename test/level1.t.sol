@@ -5,7 +5,7 @@ import "forge-std/Test.sol";
 import "../src/level1.sol";
 
 contract POC is Test {
-    Fallback level1 = Fallback(0xD0d68E770C540981DC089492021cE3117AB3253F);
+    Fallback level1 = new Fallback();
 
     function test() public {
         vm.startBroadcast();
