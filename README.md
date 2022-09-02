@@ -6,9 +6,9 @@ Levels.
 
 - [x] Lvl 0 Hello Ethernaut
 - [x] Lvl 1 Fallback
-- [ ] Lvl 2 Fallout
-- [ ] Lvl 3 Coin Flip
-- [ ] Lvl 4 Telephone
+- [x] Lvl 2 Fallout
+- [x] Lvl 3 Coin Flip
+- [x] Lvl 4 Telephone
 - [ ] Lvl 5 Token
 - [ ] Lvl 6 Delegation
 - [ ] Lvl 7 Force
