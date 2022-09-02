@@ -9,13 +9,13 @@ Levels.
 - [x] Lvl 2 Fallout
 - [x] Lvl 3 Coin Flip
 - [x] Lvl 4 Telephone
-- [ ] Lvl 5 Token
-- [ ] Lvl 6 Delegation
-- [ ] Lvl 7 Force
-- [ ] Lvl 8 Vault
-- [ ] Lvl 9 King
-- [ ] Lvl 10 Re-entrancy
-- [ ] Lvl 11 Elevator
+- [x] Lvl 5 Token
+- [x] Lvl 6 Delegation
+- [x] Lvl 7 Force
+- [x] Lvl 8 Vault
+- [x] Lvl 9 King
+- [x] Lvl 10 Re-entrancy
+- [x] Lvl 11 Elevator
 - [ ] Lvl 12 Privacy
 - [ ] Lvl 13 Gatekeeper 1
 - [ ] Lvl 14 Gatekeeper 2
