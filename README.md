@@ -19,7 +19,7 @@ Levels.
 - [x] Lvl 12 Privacy
 - [x] Lvl 13 Gatekeeper 1 (NEED REVIEW)
 - [x] Lvl 14 Gatekeeper 2
-- [ ] Lvl 15 Naught Coin
+- [x] Lvl 15 Naught Coin
 - [ ] Lvl 16 Preservation
 - [ ] Lvl 17 Recovery
 - [ ] Lvl 18 MagicNumber

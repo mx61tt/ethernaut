@@ -29,7 +29,7 @@ contract GatekeeperTwoAttacker {
     b = uint64(_gateKey);
     result = uint64(0) - 1;
 
-    https://medium.com/@imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216
+    // https://medium.com/imolfar/bitwise-operations-and-bit-manipulation-in-solidity-ethereum-1751f3d2e216
     a ^ b = result;
     result ^ uint64(bytes8(keccak256(abi.encodePacked(address(this)))))
      */
