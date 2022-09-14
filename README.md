@@ -26,7 +26,7 @@ Levels.
 - [x] Lvl 19 Alien Codex
 - [x] Lvl 20 Denial
 - [x] Lvl 21 Shop
-- [ ] Lvl 22 Dex
+- [x] Lvl 22 Dex
 - [ ] Lvl 23 Dex Two
 - [ ] Lvl 24 Puzzle Wallet
 - [ ] Lvl 25 Motorbike
